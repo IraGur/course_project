@@ -51,7 +51,7 @@ section {
 
 section.home {
   flex-direction: row;
-  padding: 110px 60px;
+  padding: 60px 40px;
 }
 
 section.results {
@@ -83,7 +83,7 @@ h2 {
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
-  margin: 100px 0;
+  margin: 38px 0;
 }
 
 .btn:hover {
@@ -91,6 +91,17 @@ h2 {
 }
 
 /* LOGO */
+.logo-home {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  padding-bottom: 10px;
+  z-index: 20;
+}
+.logo-home img {
+  width: 110px;
+  height: 100px;
+}
 .logo {
   position: absolute;
   top: 0px;
@@ -99,7 +110,7 @@ h2 {
   z-index: 20;
 }
 .logo img {
-  width: 150px;
+  width: 160px;
   height: 150px;
 }
 
